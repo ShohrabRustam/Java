@@ -1,0 +1,10 @@
+Java Basic Class & Objects :
+
+    Object Oriented Programming: 
+
+        Objects ---> real world entities- car, bike, laptop, etc.
+                    properties : brand, speed
+                    behavious : start()
+
+        Class : a class is a blueprint or template for creating objects, defining the data (attributes) 
+                and behavior (methods) that objects of that class will have. 
