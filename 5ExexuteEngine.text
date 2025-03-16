@@ -1,0 +1,22 @@
+Execute Engine :
+        it execute butes code.
+    
+    Classified Into 3 Parts:
+            
+            1. Interpreter
+            
+            2. Just in time Compiler (JIT)
+            
+            3. Garbage Collector
+
+Interpreter : Interprets byte code line by line and execute.
+
+Disadvantage: if a method call multiple times, Interpretation multiple times.
+
+
+Just in time Compiler: 
+            Increase efficiency of Interpreter
+            JIT provides direct native code to avoid re-interpretation
+
+Garbage Collector:
+                    Destroys Un-Referenced Object.
