@@ -15,6 +15,6 @@ PC Register :
         Store address of current execution instruction of thread.
         Each thread have seperate PC Register.
 
-Native Method Stacks:
+Native Method Stacks: Written in other lang and integrate in our java code
                     Store native method info
                     seperate native stack for every thread (not shared storage)
