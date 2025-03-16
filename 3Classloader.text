@@ -1,0 +1,41 @@
+Class Loader: 
+
+    Responsible for 3 Activities : 
+
+        [Loading] 
+        [Linking]
+        [Initialization]
+
+Loading : 1. Reads .class file  2.Generate binary data  3.Save into Method Area
+
+    What Information Save : 
+            1. Fully Qualified name of the method class and its immediate parent class
+            2. weather .class file is related to class/interface/enum.
+            3.Modifier, Variable & Method Information etc.
+
+Linking :
+        [Verification]
+        [Preparation]
+        [Resolution]
+
+    Verification: 
+                    1. Ensure Correctness of .class file
+                    2. Check format
+                    3. java.lang.verify Error if fair for Verification
+
+Resolution : Transform symbolic reference into direct reference.
+
+
+
+Initialization: 
+    
+    Static Variable are assigned with values.
+    Execute from top to bottom
+
+
+
+Three Class Loader:
+
+    1.BootStrap Class Loader [Class Load By BootStrap]
+    2.Extension Class Loader [Class Load By Extension]
+    3.System/Application Class Loader [Request to load class]
