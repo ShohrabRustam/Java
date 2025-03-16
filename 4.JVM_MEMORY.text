@@ -14,3 +14,7 @@ JVM MEMORY:
 PC Register : 
         Store address of current execution instruction of thread.
         Each thread have seperate PC Register.
+
+Native Method Stacks:
+                    Store native method info
+                    seperate native stack for every thread (not shared storage)
