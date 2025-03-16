@@ -1,0 +1,28 @@
+Java Vertual Machine Architecture:
+
+        How JVM works
+                JVM execute the program
+    
+    JVM language class :->
+
+      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||           
+                                        Class Loader
+
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+            JVM Memory
+
+            [Method Area] [Heap] [JVM language Stack] [PC Register] [Native Method Stacks]
+            
+
+            [Execute Engine] [Native Method Interface] [Native Module Library]
+
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+
+
+Input to JVM :
+
+    java Compiler compiles .java files -----> .class file will be created --->  JVM picks up .class file and run it

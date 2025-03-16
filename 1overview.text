@@ -1,0 +1,14 @@
+Why Java? 
+ 1. Top 3 popular Language.
+ 2. Extremely flexible & platform independent.
+ 3.Widely used.
+ 4. Framework support (Spring, Spring Boot)
+
+
+
+HLL (High Level Language) [For Human] (Java Code) ====> LLL (Low Level Language) [Object Code] 0011100
+
+
+
+[Java Code] .java ----- compiler ---> [Byte Code] .class -----JVM---> [Object Code]
+
