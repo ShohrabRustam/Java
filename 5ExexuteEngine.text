@@ -20,3 +20,11 @@ Just in time Compiler:
 
 Garbage Collector:
                     Destroys Un-Referenced Object.
+
+
+JAVA Native Interface : 
+                        Interface interact with native method Libraries.
+
+
+Native Method Libraries:
+                    Collection of the Native Libraries (C, C++) which are required by Execution Engine.
