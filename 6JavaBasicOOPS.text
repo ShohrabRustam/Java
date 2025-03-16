@@ -1,0 +1,9 @@
+Java Basic OOPS Concept:
+
+    Inheritance: Reusing and extending existing code by inheriting property and behavior.
+
+    Polymorphism: Allowing one inteface to present different underlying forms or types.
+
+    Encapsulation: Hinding the internal details of objects and exposing only when necessary.
+    
+    Abstraction: Focus only on essential details while hiding the complex implementation.
