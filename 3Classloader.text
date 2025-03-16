@@ -36,6 +36,6 @@ Initialization:
 
 Three Class Loader:
 
-    1.BootStrap Class Loader [Class Load By BootStrap]
+    1.BootStrap Class Loader [Class Load By BootStrap]  PATH = JAVA/JRE/LIB
     2.Extension Class Loader [Class Load By Extension]
     3.System/Application Class Loader [Request to load class]
