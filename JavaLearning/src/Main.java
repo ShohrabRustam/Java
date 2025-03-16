@@ -1,5 +1,6 @@
 import Classes.Bike;
 import Classes.Car;
+import Classes.ElectricBike;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,10 +10,11 @@ public class Main {
 //        c1.color = "Red";
 //        c1.speed = 50;
 //        c1.start();
-        Bike b1 = new Bike();
-        b1. speed= 50;
-        b1.color = "Black";
-        b1.bikeDetails();
+        ElectricBike eb1 = new ElectricBike();
+        eb1. speed= 50;
+        eb1.color = "Black";
+        eb1.power = 10;
+        eb1.electricBikeDetails();
 //        System.out.println("Hello, World!");
     }
 }
