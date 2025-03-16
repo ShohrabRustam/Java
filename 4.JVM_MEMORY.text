@@ -1,0 +1,16 @@
+JVM MEMORY: 
+            1.Method Area: Static Block / Static Variable / reference
+            2.Heap Area : Instance Variable
+            3.Run Time Stack [Stack Memory] : Method Call Local Variable
+            4.PC Register
+            5.Native Method Stack
+    
+    Stack Area: 
+            One runtime stack for every thread is store here.
+            Every block of stack (Activation Record/ Stack Frame).
+            Runtime stack will be destroyed after thread terminated.
+            Not a shared resource.
+
+PC Register : 
+        Store address of current execution instruction of thread.
+        Each thread have seperate PC Register.
