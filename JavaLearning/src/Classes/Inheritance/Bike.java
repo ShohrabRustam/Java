@@ -1,6 +1,6 @@
-package Classes;
+package Classes.Inheritance;
 
-public class Bike extends Vehicle{
+public class Bike extends Vehicle {
     public String color;
 
     public void bikeDetails() {

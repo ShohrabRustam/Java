@@ -1,6 +1,4 @@
-import Classes.Bike;
-import Classes.Car;
-import Classes.ElectricBike;
+import Classes.Inheritance.ElectricBike;
 
 public class Main {
     public static void main(String[] args) {

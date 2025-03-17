@@ -1,4 +1,4 @@
-package Classes;
+package Classes.Inheritance;
 
 public class Vehicle {
     public int speed;
