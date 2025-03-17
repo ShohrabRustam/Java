@@ -7,7 +7,14 @@ Java Basic OOPS Concept:
             2.Extensibility
             3.Maintainability
 
-    Polymorphism: Allowing one inteface to present different underlying forms or types.
+    Polymorphism:  In Programming, Polymorphism Allows the same action or method to work in different ways depending 
+                    on the object that used it.
+        
+        Polymorphism = Poly (Many) + morphism (Forms)
+
+        example : Animal : 1 Dog --> speak(), 2 Cat ---> speak()
+        
+        Allowing one inteface to present different underlying forms or types.
 
     Encapsulation: Hinding the internal details of objects and exposing only when necessary.
 
