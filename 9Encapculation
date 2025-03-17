@@ -11,6 +11,11 @@ Encapsulation: Hinding the internal details of objects and exposing only when ne
         User-Define packages: Custom packages created by developers.
 
 
-    Access Modifier
+    Access Modifier: 
+                    public : access everywhere.
+                    protected: access inside same packages or sub class. 
+                    default : access only inside the package.
+                    private : access only within the class.
+
     Encapsulation
 
