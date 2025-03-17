@@ -1,4 +1,4 @@
-package Classes.Polymorphism;
+package Classes.Polymorphism.Overriding;
 
 public class Cat  extends Animal {
 

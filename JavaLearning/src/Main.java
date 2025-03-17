@@ -1,5 +1,8 @@
 import Classes.Inheritance.*;
-import Classes.Polymorphism.*;
+import Classes.Polymorphism.Overloading.Theater;
+import Classes.Polymorphism.Overriding.Animal;
+import Classes.Polymorphism.Overriding.Cat;
+import Classes.Polymorphism.Overriding.Dog;
 
 
 public class Main {
@@ -8,7 +11,7 @@ public class Main {
         inheitance();
         multiInheitance();
         polymorphism();
-
+        bookTicket(5);
     }
 
     private static void classObj(){
@@ -41,7 +44,13 @@ public class Main {
         a1.speak();
         Animal a2 = new Dog();
         a2.speak();
+    }
 
 
+    private  static void bookTicket(int numberOfTicket){
+        Theater t1 = new Theater();
+        t1.bookTicket(numberOfTicket);
+        t1.bookTicket(numberOfTicket *2,"VIP");
+        t1.bookTicket(numberOfTicket * 3, "VIP", 100);
     }
 }
