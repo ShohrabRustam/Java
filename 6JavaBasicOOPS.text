@@ -16,6 +16,9 @@ Java Basic OOPS Concept:
         
         Allowing one inteface to present different underlying forms or types.
 
+        Benefits: 
+            Code reusability, Flexibility & Extensibility, Easier Maintainability,Improved Readability & Modularity
+
     Encapsulation: Hinding the internal details of objects and exposing only when necessary.
 
     Abstraction: Focus only on essential details while hiding the complex implementation.
