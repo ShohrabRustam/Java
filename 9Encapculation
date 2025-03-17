@@ -17,5 +17,5 @@ Encapsulation: Hinding the internal details of objects and exposing only when ne
                     default : access only inside the package.
                     private : access only within the class.
 
-    Encapsulation
+    Encapsulation : encapsulation is a core object-oriented programming principle that bundles data (variables) and the methods (functions) that operate on that data into a single unit, known as a class, while restricting direct access to some of an object's components. 
 
