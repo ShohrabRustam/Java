@@ -1,0 +1,16 @@
+
+Encapsulation: Hinding the internal details of objects and exposing only when necessary.
+
+    Package: 
+            Package are like folders in a file System that help organize the code.
+            They group related classes and inteface to Improved code Modularity & reusability.
+
+    Type of Packages: 
+        Build in packages: Java Predefine packages (like java.util,java.io etc)
+
+        User-Define packages: Custom packages created by developers.
+
+
+    Access Modifier
+    Encapsulation
+
