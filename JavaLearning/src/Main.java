@@ -12,6 +12,9 @@ public class Main {
         multiInheitance();
         polymorphism();
         bookTicket(5);
+        Thread t = new Thread();
+        System.out.println(t.getState());
+
     }
 
     private static void classObj(){
