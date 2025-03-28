@@ -1,3 +1,16 @@
 whenever we will create a thread the state of the thread will be new.
 
 After create new thread it will be runnable state.
+
+ex = Thread t = new Thread(); // state will be new
+        t.start(); // state will be RUNNABLE 
+        to get the state use (t.getState());
+
+RUNNABLE: 
+            1.Ready to run 
+            2.Running
+
+Not RUNNABLE:
+                TimeWaiting
+                Waiting
+                Blocked

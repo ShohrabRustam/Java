@@ -13,6 +13,7 @@ public class Main {
         polymorphism();
         bookTicket(5);
         Thread t = new Thread();
+        t.start();
         System.out.println(t.getState());
 
     }
