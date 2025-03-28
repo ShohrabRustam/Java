@@ -15,6 +15,7 @@ public class Main {
         Thread t = new Thread();
         t.start();
         System.out.println(t.getState());
+        interfaceConcept();
 
     }
 
@@ -56,5 +57,13 @@ public class Main {
         t1.bookTicket(numberOfTicket);
         t1.bookTicket(numberOfTicket *2,"VIP");
         t1.bookTicket(numberOfTicket * 3, "VIP", 100);
+    }
+
+    private static void interfaceConcept(){
+        Car c1 = new Car();
+        Truck t1 = new Truck();
+        c1.start();
+        t1.start();
+
     }
 }
