@@ -62,8 +62,8 @@ public class Main {
     private static void interfaceConcept(){
         Car c1 = new Car();
         Truck t1 = new Truck();
+        c1.honk();
         c1.start();
         t1.start();
-
     }
 }
