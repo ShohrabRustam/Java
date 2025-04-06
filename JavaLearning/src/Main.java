@@ -9,6 +9,8 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Predicate;
 import java.util.function.Supplier;
 
 
@@ -31,7 +33,8 @@ public class Main {
 //        }
         stringBuffer();
         consumerFunction();
-
+        functional();
+        predicate();
     }
 
     private static void sequenceCollection(){
