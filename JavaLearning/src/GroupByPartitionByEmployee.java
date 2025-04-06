@@ -5,6 +5,16 @@ import java.util.stream.Collectors;
 
 public class GroupByPartitionByEmployee {
     public String eName;
+
+    @Override
+    public String toString() {
+        return "GroupByPartitionByEmployee{" +
+                "eName='" + eName + '\'' +
+                ", department='" + department + '\'' +
+                ", salary=" + salary +
+                '}';
+    }
+
     public String department;
     public Integer salary;
 
