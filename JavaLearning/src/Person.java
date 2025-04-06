@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class Person implements Comparable<Person>{
@@ -41,6 +42,8 @@ public class Person implements Comparable<Person>{
         personList.add(new Person(21,"Shohrab"));
         personList.add(new Person(22,"Saif"));
         Collections.sort(personList);
+
+        Comparator.comparing(Person::getName);
 
         for(Person person: personList){
             System.out.println(person);
