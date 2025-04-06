@@ -175,4 +175,17 @@ public class Main {
         Double randomNumber = randomNumberSupplier.get();
         System.out.println("Random Number suplier: "+ randomNumber);
     }
+
+    private static void functional(){
+        Function<Integer,String> intToStringConverter = number -> String.valueOf(number);
+        String result = intToStringConverter.apply(60);
+        System.out.println("intToStringConverter" + result);
+    }
+
+    private static void predicate(){
+        Predicate<String> isNullOrEmpty = str->  str == null || str.isEmpty();
+        System.out.println("Is null or Empty : " + isNullOrEmpty.test(null));
+        System.out.println("Is null or Empty : " + isNullOrEmpty.test(""));
+        System.out.println("Is null or Empty : " + isNullOrEmpty.test("Rustam"));
+    }
 }
