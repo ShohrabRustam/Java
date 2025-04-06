@@ -8,7 +8,8 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
-
+import java.util.function.Consumer;
+import java.util.function.Supplier;
 
 
 public class Main {
@@ -29,6 +30,7 @@ public class Main {
 //            throw new RuntimeException(e);
 //        }
         stringBuffer();
+        consumerFunction();
 
     }
 
@@ -161,5 +163,16 @@ public class Main {
         sb.append("StringBuffer concept: ");
         sb.repeat("RUSTAM ", 3);
         System.out.println(sb);
+    }
+
+    private static void consumerFunction(){
+        Consumer<String> printer = massage -> System.out.println(massage);
+        printer.accept("Hello World");
+    }
+
+    private static void supplierFunction(){
+        Supplier<Double> randomNumberSupplier = ()-> Math.random();
+        Double randomNumber = randomNumberSupplier.get();
+        System.out.println("Random Number suplier: "+ randomNumber);
     }
 }
