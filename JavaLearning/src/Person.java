@@ -39,11 +39,11 @@ public class Person implements Comparable<Person>{
         List<Person> personList = new ArrayList<>();
 
         personList.add(new Person(30,"Rustam"));
-        personList.add(new Person(21,"Shohrab"));
+        personList.add(new Person(21,"Arab"));
         personList.add(new Person(22,"Saif"));
         Collections.sort(personList);
 
-        Comparator.comparing(Person::getName);
+        personList.sort(Comparator.comparing(Person::getAge));
 
         for(Person person: personList){
             System.out.println(person);
