@@ -4,6 +4,8 @@ import Classes.Polymorphism.Overriding.Animal;
 import Classes.Polymorphism.Overriding.Cat;
 import Classes.Polymorphism.Overriding.Dog;
 
+import java.util.ArrayList;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -16,6 +18,25 @@ public class Main {
         t.start();
         System.out.println(t.getState());
         interfaceConcept();
+        sequenceCollection();
+
+    }
+
+    private static void sequenceCollection(){
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        System.out.println("list:" + list);
+        System.out.println("first list : "+ list.get(0));
+        System.out.println("first list : "+ list.getFirst());
+        System.out.println("last list : "+list.get(list.size()-1));
+        System.out.println("last list : "+list.getLast());
+        System.out.println("reverse list : "+list.reversed());
+        System.out.println("after remove first list : "+list.removeFirst());
+        System.out.println("after remove last " + list.removeLast());
+        System.out.println("list: "+ list);
 
     }
 
