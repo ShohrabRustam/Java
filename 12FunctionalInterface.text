@@ -1,0 +1,31 @@
+There are four type of default functional interface in java.
+
+1. Consumer 
+2. Supplier
+3. Functional
+4. Predicate
+
+
+private static void consumerFunction(){
+        Consumer<String> printer = massage -> System.out.println(massage);
+        printer.accept("Hello World");
+    }
+
+    private static void supplierFunction(){
+        Supplier<Double> randomNumberSupplier = ()-> Math.random();
+        Double randomNumber = randomNumberSupplier.get();
+        System.out.println("Random Number suplier: "+ randomNumber);
+    }
+
+    private static void functional(){
+        Function<Integer,String> intToStringConverter = number -> "number: " + number;
+        String result = intToStringConverter.apply(60);
+        System.out.println("intToStringConverter" + result);
+    }
+
+    private static void predicate(){
+        Predicate<String> isNullOrEmpty = str->  str == null || str.isEmpty();
+        System.out.println("Is null or Empty : " + isNullOrEmpty.test(null));
+        System.out.println("Is null or Empty : " + isNullOrEmpty.test(""));
+        System.out.println("Is null or Empty : " + isNullOrEmpty.test("Rustam"));
+    }
