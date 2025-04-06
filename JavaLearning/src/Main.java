@@ -23,11 +23,12 @@ public class Main {
         System.out.println(t.getState());
         interfaceConcept();
         sequenceCollection();
-        try {
-            thread();
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+//        try {
+//            thread();
+//        } catch (InterruptedException e) {
+//            throw new RuntimeException(e);
+//        }
+        stringBuffer();
 
     }
 
@@ -153,5 +154,12 @@ public class Main {
         c1.honk();
         c1.start();
         t1.start();
+    }
+
+    private static void stringBuffer(){
+        StringBuffer sb = new StringBuffer();
+        sb.append("StringBuffer concept: ");
+        sb.repeat("RUSTAM ", 3);
+        System.out.println(sb);
     }
 }
