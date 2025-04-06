@@ -7,6 +7,8 @@ import Classes.Polymorphism.Overriding.Dog;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
+import java.util.List;
+
 
 
 public class Main {
@@ -21,6 +23,11 @@ public class Main {
         System.out.println(t.getState());
         interfaceConcept();
         sequenceCollection();
+        try {
+            thread();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
 
     }
 
@@ -58,6 +65,7 @@ public class Main {
         System.out.println("after remove first list : "+list.removeFirst());
         System.out.println("after remove last " + list.removeLast());
         System.out.println("list: "+ list);
+
     }
 
     private static void linkedHashMap(){
@@ -73,6 +81,29 @@ public class Main {
         System.out.println("sequencedKeySet set : "+ map.sequencedKeySet());
         System.out.println("sequencedValues set : "+ map.sequencedValues());
         System.out.println("sequencedEntrySet : "+ map.sequencedEntrySet());
+
+    }
+    private static void thread() throws InterruptedException {
+        final int threadCount = 1000;
+        List<Thread> threads = new ArrayList<>();
+        Runnable runnable = () ->{
+            try {
+                Thread.sleep(5000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        };
+
+        for(int i=0;i<threadCount;i++){
+            Thread thread =  new Thread(runnable);
+            thread.setName("Thread-:" + i);
+            thread.start();
+            threads.add(thread);
+        }
+
+        for(Thread thread : threads){
+            thread.join();
+            System.out.println(String.format("Completed : %s", thread.getName()));}
 
     }
 
